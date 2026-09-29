@@ -15,23 +15,22 @@ window.PORTFOLIO = {
   showThemePicker: true,
 
   /* ---------- ABOUT YOU ---------- */
-  name: "Anthony Cardozo",
-  initials: "AC",                       // shown if you don't add a photo
+  name: "Abraham Vargas",
+  initials: "AV",                       // shown if you don't add a photo
   photo: "",                            // optional: "images/headshot.jpg"
-  headline: "Software engineer building cloud systems and developer tools.",
-  tagline: "I like building things people actually use.",   // used by the Story style
-  school: "CS at UT Austin, class of 2029",
+  headline: "Civil engineering student learning structural design through concrete canoe, steel bridge, and seismic teams.",
+  tagline: "I like figuring out how things are built, then building them.",   // used by the Story style
+  school: "CE at UT Austin, class of 2030",
   location: "Austin, TX",
-  status: "Looking for Summer 2027 internships",             // leave "" to hide
+  status: "",                           // example: "Looking for Summer 2027 internships". Leave "" to hide
 
-  about: "I've worked on AI evaluation at AWS, a browser-based compiler at a startup, and the platform my SHPE chapter runs on. Before all that, I built an online store for my family's candy business.",
+  about: "I'm a first-generation civil engineering student at UT Austin. I spent a year working on job sites and translating between crews and clients for my family's masonry and remodeling business, and now I'm learning the design side through ASCE and the Seismic Design Team.",
 
   /* ---------- CONTACT ---------- */
-  email: "anthonycardozo06@gmail.com",
+  email: "abraham.var30@gmail.com",
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
-    { label: "LinkedIn", url: "https://linkedin.com/in/anthony-cardozo-4361b6310" },
-    { label: "GitHub",   url: "https://github.com/your-username" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/ut-abraham" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -40,36 +39,44 @@ window.PORTFOLIO = {
      business all count.                                           */
   experience: [
     {
-      role: "Software Engineering Intern",
-      org: "Amazon Web Services",
-      place: "Seattle, WA",
-      dates: "Summer 2026",
-      summary: "Built a weekly pipeline that grades an AI root-cause-analysis agent and found fixes that raised its average score 23%.",
-      tags: ["Lambda", "SQS", "Bedrock", "DynamoDB"],
-    },
-    {
-      role: "Founding Engineer",
-      org: "One Dollar Computer",
+      role: "Member, Concrete Canoe and Steel Bridge",
+      org: "ASCE UT Austin",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Built the cloud compiler that lets you write C or Rust in the browser and flash a RISC-V board in under 6 seconds.",
-      tags: ["C", "Rust", "GCP", "WebHID"],
+      dates: "2026 - now",
+      summary: "Ran a sample concrete mix test without a mix formula and am working on a new canoe hull design. On Steel Bridge, I've done practice designs to learn how the design process works.",
+      tags: ["Excel", "Mix testing"],
     },
     {
-      role: "Website Lead",
+      role: "Member",
+      org: "Seismic Design Team, UT Austin",
+      place: "Austin, TX",
+      dates: "2026 - now",
+      summary: "Attend workshops on earthquake engineering principles and introductory structural analysis.",
+      tags: ["Earthquake engineering", "Structural analysis"],
+    },
+    {
+      role: "Member",
       org: "SHPE UT Austin",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Lead the platform 400+ members use to earn points for convention and stipends. 1,000+ check-ins in the first 3 weeks.",
-      tags: ["React", "Supabase"],
+      dates: "2026 - now",
+      summary: "Meet Hispanic engineering students and professionals for mentorship and community.",
+      tags: ["Networking", "Mentorship"],
     },
     {
-      role: "Founder",
-      org: "Cardozo Enchilados",
-      place: "Dallas, TX",
-      dates: "2023 – now",
-      summary: "Run a Mexican candy business with my family: 1,500+ units sold, plus a Stripe storefront that replaced taking orders over DMs.",
-      tags: ["React", "Express", "MongoDB", "Stripe"],
+      role: "Operations & Communications Assistant",
+      org: "Si Se Puede Remodeling & Construction",
+      place: "",
+      dates: "Jun 2025 - Jun 2026",
+      summary: "Handled English and Spanish communication and paperwork between project leads, trade contractors, and clients. Also helped on masonry and remodeling job sites with prep, cleanup, and team coordination.",
+      tags: ["Bilingual", "Masonry", "Subcontracting"],
+    },
+    {
+      role: "Volunteer",
+      org: "Junior Achievement",
+      place: "",
+      dates: "2024 - 2026",
+      summary: "Taught business basics and financial literacy to elementary students in English and Spanish.",
+      tags: ["Teaching", "Bilingual"],
     },
   ],
 
@@ -79,27 +86,19 @@ window.PORTFOLIO = {
      "url" can link to a demo, GitHub repo, or photos ("" for none). */
   projects: [
     {
-      name: "HONK",
-      when: "Hackathon · Apr 2026",
-      stack: ["Next.js", "Gemini", "Firebase"],
-      summary: "A focus app that checks your screen every minute. Drift off task and it honks at you and takes your bread.",
-      result: "Distracted time dropped from 33% to 8%",
+      name: "Concrete Canoe hull redesign",
+      when: "ASCE · 2026",
+      stack: ["Excel", "SolidWorks"],
+      summary: "A new hull design for UT's Concrete Canoe team. I started from the side view in the team's Excel sheet, which took a while to understand, and now I'm changing the design myself.",
+      result: "Learned the equations behind the sheet, next step is moving the design into SolidWorks",
       url: "",
     },
     {
-      name: "Landing Pad",
-      when: "Hackathon · Jul 2026",
-      stack: ["React", "TypeScript", "AWS CDK"],
-      summary: "A no-login city guide where outgoing interns pass down their favorite food, housing, and activity spots to the next class.",
-      result: "54 places on a color-coded map",
-      url: "",
-    },
-    {
-      name: "SHPE Chapter Platform",
-      when: "SHPE · 2026",
-      stack: ["React", "Supabase"],
-      summary: "Event check-ins, a points leaderboard, and an officer dashboard for our chapter.",
-      result: "1,000+ check-ins in 3 weeks",
+      name: "Steel Bridge practice designs",
+      when: "ASCE · 2026",
+      stack: ["STAAD.Pro"],
+      summary: "Practice bridge designs done with no prior knowledge, just to get used to how the team thinks through a design.",
+      result: "Learning STAAD.Pro next to analyze real designs",
       url: "",
     },
   ],
@@ -107,11 +106,11 @@ window.PORTFOLIO = {
   /* ---------- SKILLS ----------
      Group them however makes sense for your major.               */
   skills: [
-    { group: "Languages",  items: ["Java", "C", "Python", "JavaScript", "TypeScript", "x86 Assembly"] },
-    { group: "Frameworks", items: ["React", "Next.js", "Node", "Express", "Supabase", "Firebase"] },
-    { group: "Cloud",      items: ["AWS Lambda", "S3", "SQS", "DynamoDB", "Bedrock", "CDK"] },
+    { group: "Design software", items: ["Rhino", "Bluebeam"] },
+    { group: "Business tools",  items: ["Microsoft Office Suite", "Google Workspace"] },
+    { group: "Languages",       items: ["English (fluent)", "Spanish (native)"] },
   ],
 
   /* ---------- AWARDS (optional, use [] for none) ---------- */
-  awards: ["Amazon Future Engineer Scholar", "Dijkstra Scholar", "HITEC Scholar", "HSF Scholar"],
+  awards: ["National Hispanic Recognition Award", "National First-Generation Recognition Award", "AP Scholar with Distinction"],
 };
